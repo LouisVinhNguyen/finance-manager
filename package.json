@@ -1,14 +1,21 @@
 {
-  "name": "finance-tracker",
-  "version": "1.0.0",
+  "name": "finance-manager_lvn",
+  "version": "1.0.23",
   "description": "Bibliothèque en JavaScript (Node.js) pour gérer ses finances personelles",
-  "main": "index.js",
+  "main": "finance-manager.js",
   "scripts": {
-    "test": "This is finance-tracker speaking"
+    "test": "echo 'This is finance-tracker speaking'"
   },
   "keywords": [
     "finance"
   ],
   "author": "LouisVinhNguyen",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "22.14.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "csv-parser": "^3.2.0"
+  }
 }
