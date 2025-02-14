@@ -1,10 +1,11 @@
 {
   "name": "finance-manager_lvn",
-  "version": "1.0.23",
+  "version": "1.0.2",
   "description": "Bibliothèque en JavaScript (Node.js) pour gérer ses finances personelles",
   "main": "finance-manager.js",
   "scripts": {
-    "test": "echo 'This is finance-tracker speaking'"
+    "test": "jest",
+    "docs": "jsdoc -c jsdoc.json"
   },
   "keywords": [
     "finance"
@@ -17,5 +18,11 @@
   "type": "module",
   "dependencies": {
     "csv-parser": "^3.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.0",
+    "babel-jest": "^27.0.0",
+    "jest": "^29.0.0",
+    "jsdoc": "^4.0.4"
   }
 }
